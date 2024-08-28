@@ -25,7 +25,7 @@ public class JWTAuthFilter extends OncePerRequestFilter {
     private JWTUtils jwtUtils;
 
     @Autowired
-    private UsersDetailsServic UsersDetailsService;
+    private flavia.dev.GerenciarUsuarios.service.UsersDetailsService UsersDetailsService;
 
 
     @Override
